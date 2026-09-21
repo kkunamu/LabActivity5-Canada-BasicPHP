@@ -22,6 +22,8 @@ if (!empty($_SESSION['user'])) {
         <button type="submit">Register</button>
     </form>
 
+    <p>Already have an account? <a href="login.php">Login here</a></p>
+
     <script>
         document.getElementById('registerForm').addEventListener('submit', function(e) {
             e.preventDefault();

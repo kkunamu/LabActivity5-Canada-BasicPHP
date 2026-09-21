@@ -34,8 +34,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
         <button type="submit">Login</button>
-        <button type="button" onclick="window.location.href='register.php'">Register Account</button>
     </form>
+
+    <p>Don't have an account? <a href="register.php">Register here</a></p>
 
     <script>
         document.getElementById('loginForm').addEventListener('submit', function(e) {
